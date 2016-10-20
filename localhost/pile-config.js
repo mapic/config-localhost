@@ -9,21 +9,21 @@ module.exports = {
 		layers : {
 			port : 6379,
 			host : 'redislayers',
-			auth : 'MUST_MATCH_REDIS_TOKEN',
+			auth : 'MUST_MATCH_REDIS_CONFIG',
 			db : 2
 		},
 
 		stats : {
 			port : 6379,
 			host : 'redisstats',
-			auth : 'MUST_MATCH_REDIS_TOKEN',
+			auth : 'MUST_MATCH_REDIS_CONFIG',
 			db : 2
 		},
 
 		temp : {
 			port : 6379,
  			host : 'redistemp',
-   			auth : 'MUST_MATCH_REDIS_TOKEN',
+   			auth : 'MUST_MATCH_REDIS_CONFIG',
    			db : 2
 		}
 

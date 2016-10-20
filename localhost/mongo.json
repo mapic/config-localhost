@@ -1,5 +1,5 @@
 {
 	"user" : "systemapic",
-	"password" : "MUST_MATCH_OTHER_CONFIGS",
+	"password" : "MUST_MATCH_MONGO_CONFIG",
 	"database" : "systemapic"
 }
