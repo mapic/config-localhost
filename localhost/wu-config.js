@@ -226,6 +226,10 @@ module.exports = {
 				"uri": "https://localhost/v2/tiles/",
 				"subdomains": []
 			},
+			"cubes": {
+				"uri" : "https://localhost/v2/cubes/",
+				"subdomains" : []
+			},
 			"proxy" : {
 				"uri" : "https://localhost/v2/tiles/",
 				"subdomains" : []
