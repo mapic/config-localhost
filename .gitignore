@@ -1,1 +1,4 @@
-config-*/
+*
+!/localhost/
+!localhost/*
+!README.md
