@@ -1,12 +1,15 @@
-# Default configuration for Mapic Engine @ `localhost`
+# Config files for  `localhost`
 
-## Install
-1. Put folder in `config/` folder, making `localhost` directory eg. `/docks/config/localhost`.
-2. Then set ENV variable `MAPIC_DOMAIN=localhost`.
-3. Then update the configs (redis, mongo, engine, mile) to reflect corrent Redis/Mongo passwords.
+## Automatic Install
+1. Run [`install-to-localhost.sh`](https://github.com/mapic/dockerized/blob/master/install-to-localhost.sh) from [`dockerized`](https://github.com/mapic/dockerized) root folder.
 
+## Maunal install
+1. Clone repo to `config/` folder in [`dockerized`](https://github.com/mapic/dockerized) root: `cd config && git clone git@github.com:mapic/config-localhost.git localhost`
+2. Make sure folder is named `localhost` (not `config-localhost`)
+3. Set ENV variable `MAPIC_DOMAIN` to `localhost`: `export MAPIC_DOMAIN=localhost`
+4. Update the config files (see overview below).
 
-## Overview of config files
+## Overview 
 
 | Config file                               |        Purpose            |   What to update
 | ------------------------------------------|---------------------------|-------------------------------| 
@@ -24,5 +27,3 @@
 | dhparams.pem                              | DH params for SSL         |   Nothing (auto-generated)    |
 | env.sh                                    | PostGIS settings          |   PostGIS access details      | 
 | nginx.conf -> localhost.nginx.conf        | Symlink to nginx config   |   Point to nginx config       |
-
-
