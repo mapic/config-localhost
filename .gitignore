@@ -3,3 +3,5 @@
 !localhost/*
 !README.md
 !create_ssl.sh
+!*.sh
+!certbot-auto
