@@ -10,7 +10,7 @@ module.exports = {
 		},
 		"port": 3001,
 		"mongo": {
-			"url": "mongodb://systemapic:MUST_MATCH_MONGO_CONFIG@mongo/systemapic",
+			"url": "mongodb://mapic_mongo_user:ftfkjvyzqeowvpnffvdxlgghfuto@mongo/mapic",
 		},
 		"redis": {
 

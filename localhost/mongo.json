@@ -1,5 +1,5 @@
 {
-	"user" : "systemapic",
-	"password" : "MUST_MATCH_MONGO_CONFIG",
-	"database" : "systemapic"
+	"user" : "mapic_mongo_user",
+	"password" : "ftfkjvyzqeowvpnffvdxlgghfuto",
+	"database" : "mapic"
 }
