@@ -105,8 +105,8 @@ module.exports = {
 
 				"invited" : {
 					"title" : "Hi! You've been invited!",
-					"subject" : "Your access details to Systemapic",
-					"body" : "[inviter_name] has invited you to collaborate on Systemapic.",
+					"subject" : "Your access details to Mapic",
+					"body" : "[inviter_name] has invited you to collaborate on Mapic.",
 					"button_text" : "Click to sign in",
 				},
 
