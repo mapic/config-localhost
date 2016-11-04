@@ -31,7 +31,7 @@ module.exports = {
 
 	// mongo
 	mongo : {
-		url : 'mongodb://mongo/systemapic'
+		url : 'mongodb://mongo/mapic'
 	},
 
 	path : {
