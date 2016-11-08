@@ -2,14 +2,14 @@
 
 ## Install
 1. Run [`install-to-localhost.sh`](https://github.com/mapic/mapic/blob/master/install-to-localhost.sh) from [`mapic/mapic`](https://github.com/mapic/mapic) root folder.
-2. Start your engines! `cd mapic/compose/ && ./restart.sh`
+2. Start your engines! `./restart-mapic.sh` from `/mapic/` root folder
 
 ## Manual install
 1. Clone repo to `config/` folder in [`mapic`](https://github.com/mapic/mapic) root: `cd config && git clone git@github.com:mapic/config-localhost.git localhost`
 2. Make sure folder is named `localhost` (not `config-localhost`)
 3. [Set ENV variable](https://www.schrodinger.com/kb/1842) `MAPIC_DOMAIN` to `localhost`.
 4. Update the config files (see overview below).
-5. Start your engines! `cd mapic/compose/ && ./restart.sh`
+5. Start your engines! `./restart-mapic.sh` from `/mapic/` root folder
 
 ## List of config files 
 
