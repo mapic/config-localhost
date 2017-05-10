@@ -7,10 +7,10 @@ install_mapic() {
     export MAPIC_DOMAIN # todo: check that domain string is sane
 
     # get default config
-    git clone https://github.com/mapic/config-domain.example.com.git || abort "Unable to get the default domain config. Check your internet connection. Quitting!"
+    git clone https://github.com/mapic/config-$MAPIC_DOMAIN.git || abort "Unable to get the $MAPIC_DOMAIN config. Check your internet connection. Quitting!"
     
     # rename
-    mv config-domain.example.com $MAPIC_DOMAIN || abort "Folder already exists. Quitting!"
+    mv config-$MAPIC_DOMAIN $MAPIC_DOMAIN || abort "Folder already exists. Quitting!"
 
     # enter folder
     cd $MAPIC_DOMAIN
@@ -44,7 +44,7 @@ echo ""
 echo "Just enter your desired domain, and I will take care of the rest:"
 echo ""
 
-read -p "Which domain do you wish to use for Mapic? (Example: dev.mapic.io)  > " -e MAPIC_DOMAIN
+read -p "Which domain do you wish to use for Mapic? (Example: domain.example.com)  > " -e MAPIC_DOMAIN
 
 while true; do
     echo ""
