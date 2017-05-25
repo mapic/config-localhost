@@ -4,19 +4,19 @@ module.exports = {
     "layers": {
       "port": 6379,
       "host": "redislayers",
-      "auth": "2a67eb614ba2bee0e8abc3325e5e0ccf25248c065a8c61fd4f1c65fd917d0a71e627475b1fcd252c440cee3a4de7fcf0f3ab1b33b354a56bbb4fc928bcbc28f9",
+      "auth": "AUTH",
       "db": 2
     },
     "stats": {
       "port": 6379,
       "host": "redisstats",
-      "auth": "2a67eb614ba2bee0e8abc3325e5e0ccf25248c065a8c61fd4f1c65fd917d0a71e627475b1fcd252c440cee3a4de7fcf0f3ab1b33b354a56bbb4fc928bcbc28f9",
+      "auth": "AUTH",
       "db": 2
     },
     "temp": {
       "port": 6379,
       "host": "redistemp",
-      "auth": "2a67eb614ba2bee0e8abc3325e5e0ccf25248c065a8c61fd4f1c65fd917d0a71e627475b1fcd252c440cee3a4de7fcf0f3ab1b33b354a56bbb4fc928bcbc28f9",
+      "auth": "AUTH",
       "db": 2
     }
   },

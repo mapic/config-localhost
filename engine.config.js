@@ -8,36 +8,36 @@ module.exports = {
     },
     "port": 3001,
     "mongo": {
-      "url": "mongodb://mapic_mongo_user:2f229996203478bafb66799a78e3bfd8801b92a9dde60d29def8da808c34cbb9328e3e8ee41cc758d89f3bd23ee485c9f31d3cc4b1a41905fd01da32093e81a4@mongo/mapic"
+      "url": "mongodb://mapic_mongo_user:AUTH@mongo/mapic"
     },
     "redis": {
       "layers": {
         "port": 6379,
         "host": "redislayers",
-        "auth": "2a67eb614ba2bee0e8abc3325e5e0ccf25248c065a8c61fd4f1c65fd917d0a71e627475b1fcd252c440cee3a4de7fcf0f3ab1b33b354a56bbb4fc928bcbc28f9",
+        "auth": "AUTH",
         "db": 1
       },
       "stats": {
         "port": 6379,
         "host": "redisstats",
-        "auth": "2a67eb614ba2bee0e8abc3325e5e0ccf25248c065a8c61fd4f1c65fd917d0a71e627475b1fcd252c440cee3a4de7fcf0f3ab1b33b354a56bbb4fc928bcbc28f9",
+        "auth": "AUTH",
         "db": 1
       },
       "temp": {
         "port": 6379,
         "host": "redistemp",
-        "auth": "2a67eb614ba2bee0e8abc3325e5e0ccf25248c065a8c61fd4f1c65fd917d0a71e627475b1fcd252c440cee3a4de7fcf0f3ab1b33b354a56bbb4fc928bcbc28f9",
+        "auth": "AUTH",
         "db": 1
       }
     },
     "slack": {
-      "webhook": "https://hooks.slack.com/services/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",
-      "token": "xoxb-3868763863-SGufYHEt7crFub8BoWpNNsHy",
-      "channel": "systemapic-bot",
-      "monitor": "systemapic-monitor",
+      "webhook": "https://hooks.slack.com/services/",
+      "token": "AUTH",
+      "channel": "mapic-bot",
+      "monitor": "mapic-monitor",
       "errorChannel": "#dev-error-log",
-      "botname": "systemapic-bot",
-      "icon": "http://localhost/wp-content/uploads/systemapic-color-logo-circle.png",
+      "botname": "mapic-bot",
+      "icon": "",
       "baseurl": "https://localhost/"
     },
     "portalServer": {
